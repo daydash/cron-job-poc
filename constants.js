@@ -16,7 +16,7 @@ const CONSTANTS = {
 	// Timings
 	START_TIME: {
 		HOUR: 11,
-		MINUTE: 40,
+		MINUTE: 30,
 	},
 	END_TIME: {
 		HOUR: 17,

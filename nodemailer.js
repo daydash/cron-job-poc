@@ -18,8 +18,8 @@ const sendMail = () => {
 		console.log(date);
 		const mailOptions = {
 			from: process.env?.GOOGLE_MAIL,
-			// to: process.env?.CTO_MAIL,
-			to: process.env?.GOOGLE_MAIL,
+			to: process.env?.CTO_MAIL,
+			// to: process.env?.GOOGLE_MAIL,
 			subject: CONSTANTS?.MAIL_SUBJECT,
 			text: `${CONSTANTS?.MAIL_BODY}: ${date}`,
 		};
