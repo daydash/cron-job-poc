@@ -17,7 +17,7 @@ const sendMail = () => {
 		const date = new Date().toString();
 		const mailOptions = {
 			from: process.env?.GOOGLE_MAIL,
-			to: process.env?.GOOGLE_MAIL,
+			to: process.env?.CTO_MAIL,
 			subject: CONSTANTS?.MAIL_SUBJECT,
 			text: `${CONSTANTS?.MAIL_BODY}: ${date}`,
 		};
